@@ -1,0 +1,364 @@
+header nav .logo{
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 42px;
+    width: 74px;
+    height: 48px;
+    gap:12px;
+    margin-left: 2%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 48px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+
+}
+
+
+header nav{
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000029;
+    height:80px;
+    
+}
+.head {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 120px;
+    text-align: center;
+    line-height: 120px;
+    height: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head center{
+    width: 100%;
+}
+.main{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.head-combo{
+    width: 100%;
+    height: 1272px;
+    border-bottom: 2px;
+    gap: 48px;
+    padding-top: 96px;
+}
+
+
+.head-image{
+    width: 100%;
+    height: 672px;
+    border-radius: 56px;
+    margin-top: 48px;
+
+}
+
+.text-combo{
+    width: 100%;
+    height: 1272px;
+    border-bottom: 2px;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 96px;
+
+}
+
+.text{
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 64px;
+    line-height: 68px;
+    display: flex;
+    width: 900px;
+    height: 340px;
+    padding-bottom: 80px;
+
+    
+}
+
+.text-image{
+    width: 100%;
+    border-bottom: 2px;
+    padding-top: 96px;
+}
+
+.text-image img{
+    width: 100%;
+    height: auto;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+.s-left{
+    width: 50%;
+}
+.s-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s-left p{
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 28px;
+}
+
+.s-right p{
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 28px;
+
+}
+
+.images-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.image-container1{
+    display: flex;
+    justify-content: space-between;
+}
+.first-image{
+    width: 648px;
+height: 664px;
+}
+.second-image{
+width: 648px;
+height: 443px;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container2 img{
+    width: 1008px;
+    height: 672px;
+}
+.image-container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.impact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.impact .i-left h1{
+    font-family: Lexend Exa;
+font-size: 28px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.impact .i-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+.i_right{
+    padding: 24px 160px 24px 24px;
+    border-top: 2px solid #00000029;
+}
+.i_right h1{
+    font-family: Lexend Exa;
+font-size: 48px;
+font-weight: 300;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+
+}
+.i_right p{
+    font-family: Newsreader;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.testimonials{
+    margin-top: 100px;
+}
+.testimonials h1{
+    font-family: Lexend Exa;
+font-size: 48px;
+font-weight: 300;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.t-cards{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    gap: 48px;
+}
+.t-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #00000029;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 16px;
+    min-width: 288px !important;
+}
+.t-card .t-top{
+    display: flex;
+    gap: 12px;
+}
+.t-image img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.t-image{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.t-content{
+    width: 80%;
+}
+.t-content h1{
+    font-family: Newsreader;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+}
+.t-content p{
+    font-family: Newsreader;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+color: #00000099;
+}
+.t-bottom{
+    display: flex;
+    gap: 12px;
+}
+.b-border{
+    height: 100%;
+    width: 2px;
+    background-color: #00000029;
+    
+}
+.b-line{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.b-text p{
+    font-family: Newsreader;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+
+
+}
+.b-text{
+    width: 80%;
+}
+.footer{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.f-left h1{
+    font-family: Lexend Exa;
+font-size: 28px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #00000099;
+margin: 0;
+}
+.f-btn{
+padding: 12px 24px 12px 24px;
+border-radius: 8px;
+border: 2px;
+background-color: transparent;
+font-family: Lexend Exa;
+font-size: 20px;
+border: 2px solid #00000029
+}
